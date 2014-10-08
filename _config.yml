@@ -1,0 +1,32 @@
+name: The Grid
+favicon: "https://passport.thegrid.io/favicon.ico"
+style: A1
+cta:
+  domain: //s3-us-west-2.amazonaws.com
+  bucket: /cdn.thegrid.io
+  version: develop
+analytics:
+  google: UA-50607580-2
+  facebook: "295556487279234"
+  twitter: l4yu5
+opengraph:
+  appId: "1517733501804443"
+  image: "http://s3-us-west-2.amazonaws.com/cdn.thegrid.io/fixtures/images/no_more_zuck.png"
+  type: website
+collections:
+  - filter:
+      notTag:
+        tag: ancillary
+    index:
+      path: /
+      number: 50
+  - filter:
+      tag:
+        tag: ancillary
+    permalink:
+      path: "/:title/"
+  - filter:
+      tag:
+        tag: team
+    permalink:
+      path: /team/
