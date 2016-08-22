@@ -6,9 +6,9 @@ color:
   saturation: 0.8143516681157053
   rhythmicContrast: 0.7156176920980215
   brandColors:
-    - '#F7EDF0'
-    - '#F4CBC6'
-    - '#F4AFAB'
-    - '#F4EEA9'
-    - '#F4F482'
+    - '#B4AF91'
+    - '#787746'
+    - '#40411E'
+    - '#32331D'
+    - '#C03000'
 name: The Grid Test
