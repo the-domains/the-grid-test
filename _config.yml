@@ -1,32 +1,14 @@
-name: The Grid
-favicon: "https://passport.thegrid.io/favicon.ico"
-style: A1
-cta:
-  domain: //s3-us-west-2.amazonaws.com
-  bucket: /cdn.thegrid.io
-  version: develop
-analytics:
-  google: UA-50607580-2
-  facebook: "295556487279234"
-  twitter: l4yu5
-opengraph:
-  appId: "1517733501804443"
-  image: "http://s3-us-west-2.amazonaws.com/cdn.thegrid.io/fixtures/images/no_more_zuck.png"
-  type: website
-collections:
-  - filter:
-      notTag:
-        tag: ancillary
-    index:
-      path: /
-      number: 50
-  - filter:
-      tag:
-        tag: ancillary
-    permalink:
-      path: "/:title/"
-  - filter:
-      tag:
-        tag: team
-    permalink:
-      path: /team/
+layout_spectrum: 0.46464193845167756
+typography_spectrum: 0.2974259559996426
+color:
+  brandStrength: 0.6882605615537614
+  lightness: 0.18751350580714643
+  saturation: 0.8143516681157053
+  rhythmicContrast: 0.7156176920980215
+  brandColors:
+    - '#F7EDF0'
+    - '#F4CBC6'
+    - '#F4AFAB'
+    - '#F4EEA9'
+    - '#F4F482'
+name: The Grid Test
